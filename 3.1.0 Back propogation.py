@@ -45,4 +45,4 @@ train(epoch)
 
 for x in epoch:
     y, out = go_forward(x[0:3])
-    print(f'Полученное значение: {y} Нужное значение: {x[-1]}')
+    print(f'The resulting value: {y} Desired value: {x[-1]}')
